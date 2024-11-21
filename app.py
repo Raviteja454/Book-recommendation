@@ -254,7 +254,7 @@ df = final_df.copy()
 df.head()
 
 df = df[['BookID', 'Title', 'Author', 'Genre', 'CheckoutMonth','Number of Checkouts', 'ISBN', 'Format','Pages','Price', 'Rating', 'UserID']]
-df.head()h
+df.head()
 
 def recommend_popular_by_checkouts(top_n=10):
     popular_books = df.groupby('Title')['Number of Checkouts'].sum().sort_values(ascending=False).head(top_n)
