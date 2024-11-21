@@ -420,6 +420,4 @@ if st.button('Recommend Similar Books by Collaborative Filtering'):
     else:
         st.write("Post Alley")
 
-!echo $SHELL
 
-!streamlit run app.py
