@@ -102,4 +102,3 @@ if st.button('Recommend Similar Books by Collaborative Filtering'):
         st.write(recommended_books_cf)
     else:
         st.write("Please enter a book title.")
-!streamlit run app.py
